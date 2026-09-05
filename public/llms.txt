@@ -1,0 +1,12 @@
+# Wickra Playground
+
+> Run one StrategySpec live, side by side, byte-identical in Rust, JS, Go and Python — entirely in your browser, with no backend.
+
+Wickra Playground runs one StrategySpec four times over the same candles — compiled to WebAssembly from Rust, driven from JavaScript over that WASM, driven from Go over it, and driven from Python through Pyodide — and shows the four reports side by side. Everything runs in the browser tab; there is no backend and nothing is uploaded. Built on wickra-backtest, the deterministic engine behind the rest of the stack. Released under the MIT OR Apache-2.0 license.
+
+## Source
+- [GitHub](https://github.com/wickra-lib/wickra-playground): Source, issues, and releases.
+
+## Ecosystem
+- [Wickra](https://wickra.org): The core streaming-indicator library the ecosystem is built on.
+- [Docs](https://docs.wickra.org): Documentation for the Wickra core.
