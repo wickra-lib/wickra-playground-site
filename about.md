@@ -10,6 +10,12 @@ The playground takes one `StrategySpec` and runs it four times over the same can
 
 Cross-language consistency is easy to assert and hard to show. Four independent runtimes producing the same report, live and in front of you, is the demonstration — not a paragraph in a README.
 
+## Where it runs
+
+The app itself is at [play.wickra.org](https://play.wickra.org). This site is
+the page about it; the playground is the thing, and it runs entirely in the
+browser tab you open it in.
+
 ## Open source
 
 Released under the **MIT OR Apache-2.0** license — permissive, OSI-approved and

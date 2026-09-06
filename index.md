@@ -12,11 +12,14 @@ hero:
     alt: "Wickra Playground"
   actions:
     - theme: brand
-      text: View on GitHub
-      link: https://github.com/wickra-lib/wickra-playground
+      text: Open the playground
+      link: https://play.wickra.org
     - theme: alt
       text: How it works
       link: /about
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/wickra-lib/wickra-playground
 
 features:
   - icon: 🧪
