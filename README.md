@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://playground.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.webp?v=514" alt="Wickra Playground — one StrategySpec side by side in Python, Rust, JS and Go — the same spec, the same report, in your browser" width="100%"></a>
+  <a href="https://playground.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.webp?v=514-7" alt="Wickra Playground — one StrategySpec side by side in Python, Rust, JS and Go — the same spec, the same report, in your browser" width="100%"></a>
 </p>
 
 [![Built on Wickra](https://img.shields.io/badge/built%20on-wickra-3b82f6)](https://github.com/wickra-lib/wickra)
