@@ -1,27 +1,49 @@
-# Wickra Playground — site
+<p align="center">
+  <a href="https://playground.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.webp?v=514" alt="Wickra Playground — one StrategySpec side by side in Python, Rust, JS and Go — the same spec, the same report, in your browser" width="100%"></a>
+</p>
 
-The marketing site for [Wickra Playground](https://github.com/wickra-lib/wickra-playground), served at
-[playground.wickra.org](https://playground.wickra.org).
+[![Built on Wickra](https://img.shields.io/badge/built%20on-wickra-3b82f6)](https://github.com/wickra-lib/wickra)
+[![Live demo](https://img.shields.io/badge/live%20demo-playground.wickra.org-3b82f6)](https://playground.wickra.org)
+[![Docs](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-playground/docs.svg)](https://playground.wickra.org)
+[![License: MIT OR Apache-2.0](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-playground/license.svg)](https://github.com/wickra-lib/wickra-playground#license)
+[![Built with VitePress](https://img.shields.io/badge/built%20with-VitePress-5c73e7?logo=vite&logoColor=white)](https://vitepress.dev)
 
-Built with [VitePress](https://vitepress.dev/) and deployed from `main` by
-Cloudflare Pages.
+---
+
+Source for the Wickra Playground site (**[playground.wickra.org](https://playground.wickra.org)**): hero.
+Built with [VitePress](https://vitepress.dev).
+
+The structure mirrors [webpage](https://github.com/wickra-lib/webpage)
+(wickra.org) and [wickra-docs](https://github.com/wickra-lib/wickra-docs)
+(docs.wickra.org): shared header, footer, theme, badge pipeline and workflows.
+**Wickra Playground** — one StrategySpec side by side in Python, Rust, JS and Go — the same spec, the same report, in your browser. The application itself is
+[`wickra-lib/wickra-playground`](https://github.com/wickra-lib/wickra-playground).
+
+## Develop
 
 ```bash
 npm install
-npm run dev      # local preview
-npm run build    # production build into .vitepress/dist
+npm run dev      # local dev server
+npm run build    # production build (also fails on dead internal links)
+npm run preview  # preview the production build
 ```
 
-## Layout
+## What is kept current by workflow
 
-| Path | What it is |
-|---|---|
-| `index.md` | the landing page |
-| `about.md` | what the product does and why it exists |
-| `privacy.md`, `security.md` | site policies |
-| `.vitepress/` | config and the shared Wickra theme |
-| `public/` | icons, badges and static assets |
+- **The status badges** in the footer are snapshots refreshed hourly by `refresh-badges.yml`; the SVGs in `public/badges/` are generated, not edited.
+
+Everything else — the copy, the API pages — is edited here by hand.
+
+## Deploy
+
+Static build via Cloudflare Pages (Git integration, no deploy secret):
+
+- **Build command:** `npm run build`
+- **Output directory:** `.vitepress/dist`
+- **Node version:** 22 (`.nvmrc`)
+
+Custom domain `playground.wickra.org` is configured in the Cloudflare Pages dashboard.
 
 ## License
 
-MIT OR Apache-2.0, matching the product it documents.
+Dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your option.
