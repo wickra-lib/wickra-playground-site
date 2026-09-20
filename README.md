@@ -2,11 +2,11 @@
   <a href="https://playground.wickra.org"><img src="https://raw.githubusercontent.com/wickra-lib/.github/main/profile/wickra-banner.webp?v=514-7" alt="Wickra Playground — one StrategySpec side by side in Python, Rust, JS and Go — the same spec, the same report, in your browser" width="100%"></a>
 </p>
 
-[![Built on Wickra](https://img.shields.io/badge/built%20on-wickra-3b82f6)](https://github.com/wickra-lib/wickra)
-[![Live demo](https://img.shields.io/badge/live%20demo-playground.wickra.org-3b82f6)](https://playground.wickra.org)
+[![Built on Wickra](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-playground-site/built-on.svg)](https://github.com/wickra-lib/wickra)
+[![Live demo](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-playground-site/live-demo.svg)](https://playground.wickra.org)
 [![Docs](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-playground/docs.svg)](https://playground.wickra.org)
 [![License: MIT OR Apache-2.0](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-playground/license.svg)](https://github.com/wickra-lib/wickra-playground#license)
-[![Built with VitePress](https://img.shields.io/badge/built%20with-VitePress-5c73e7?logo=vite&logoColor=white)](https://vitepress.dev)
+[![Built with VitePress](https://raw.githubusercontent.com/wickra-lib/.github/main/profile/badges/wickra-playground-site/vitepress.svg)](https://vitepress.dev)
 
 ---
 
