@@ -33,5 +33,5 @@ features:
     details: "A StrategySpec is a JSON document, not code, so the identical file crosses every runtime unchanged — which is what makes the comparison meaningful."
   - icon: ⚙️
     title: "The engine underneath"
-    details: "Built on wickra-backtest, the deterministic engine behind the rest of the stack, over the Wickra core's 514 indicators."
+    details: "Built on wickra-backtest, the deterministic engine behind the rest of the stack, over the 495 indicators its registry resolves."
 ---

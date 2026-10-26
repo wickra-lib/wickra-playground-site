@@ -1,7 +1,7 @@
 {
   "name": "Wickra Playground",
   "short_name": "Wickra Playground",
-  "description": "Parallel multi-symbol screening over 514 streaming indicators.",
+  "description": "One StrategySpec side by side in Python, Rust, JS and Go — the same spec, the same report, in your browser.",
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
